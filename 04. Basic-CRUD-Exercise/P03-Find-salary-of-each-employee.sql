@@ -1,7 +1,7 @@
 USE `soft_uni`;
 
 SELECT `first_name`, 
-		`last_name`, 
+	`last_name`, 
         `salary` 
-        FROM `employees` 
+        FROM `employees`
         ORDER BY `employee_id`;
