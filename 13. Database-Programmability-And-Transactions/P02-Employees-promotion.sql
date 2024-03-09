@@ -8,5 +8,5 @@ BEGIN
 	ON e.department_id = d.department_id 
 	SET salary = salary * 1.05
 	WHERE d.name = department_name;
-    END$$
+END$$
     
