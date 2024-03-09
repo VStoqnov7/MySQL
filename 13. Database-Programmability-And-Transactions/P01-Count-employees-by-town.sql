@@ -15,7 +15,6 @@ BEGIN
 	WHERE t.name = town_name);
 	RETURN e_count;
 	END$$
-    
 DELIMITER ;
 ;
 
